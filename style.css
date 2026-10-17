@@ -1,0 +1,98 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+} 
+
+/*header styling*/
+header{
+   background-color: white;
+   color: #565454;
+   padding: 1rem;
+   text-align:center;
+}
+
+/*heading styling*/
+h1{
+   color: #565454;
+   font-size: 2rem;
+   margin:0;
+}
+
+h2{
+    color: #565454;
+    font-size: 2rem;
+    border-bottom: 1px solid#43424882;
+}
+
+h3{
+   color: #565454;
+   font-size: 1rem;
+   border-bottom: 1px solid #43424882;
+}
+
+/*navigations styling*/
+nav{
+   background-color:rgb(189, 208, 149);
+   padding: 10px;
+   color: whitesmoke;
+}
+
+nav a:hover{
+   color: rgb(233, 233, 241);
+   text-decoration: underline;
+}
+
+nav ul{
+   list-style:none;
+   padding: 10px 0;
+   text-align: center;
+}
+
+nav  li {
+   display:inline-block;
+   margin-right: 16px;
+}
+
+/*Body*/
+main{
+    padding: 20px;
+}
+
+/*Image styling*/
+img{
+    max-width: 100%;
+    height:auto;
+    margin-top: 20px;
+    border: radius 12px;
+}
+
+/*Pricing table*/
+table,th td {
+    border-collapse: collapse;
+    border: 1px solid  #565454;
+    padding: 10px;
+}
+
+/*footer styling*/
+footer{
+padding: 1.5rem;
+color:#333333;
+background-color:rgb(189, 208, 149);
+text-align:center;
+}
+
+footer p{
+   font-size: 0.8em; ;
+ }
+
+footer a{
+   color:#333333;
+}
+
+/*footer hover styling*/
+footer a:hover{
+   color: rgb(248, 249, 249);
+}
